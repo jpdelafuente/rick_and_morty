@@ -1,0 +1,15 @@
+.logo{
+    width: 40%;
+}
+
+.divLogo{
+    width: 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSearchBar{
+    width: 1fr;
+    align-items: center;
+    justify-content: center;
+}
