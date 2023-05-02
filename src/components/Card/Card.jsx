@@ -16,7 +16,7 @@ function Card(props) {
       }
       else {
          setIsFav(true);
-         addFav({id, name, gender, species, image, status, onClose})
+         addFav(props)
       }
    }
 

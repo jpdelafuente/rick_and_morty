@@ -9,6 +9,9 @@ export default function SearchBar(props) {
       if (event.key === 'Enter') {
          props.onSearch(id);
       }
+      setTimeout(() => {
+         setId('')
+      }, 500);
    }
 
    const handleChange = (evento) => {
